@@ -1,0 +1,116 @@
+.call {
+  padding: 30px;
+}
+
+#header {
+  padding-top: 10px;
+  background: #F3F5F7;
+}
+
+#header i {
+  padding: 5px;
+}
+
+#header span {
+  padding: 5px;
+}
+
+.line-width {
+  width: 70px;
+  height: 3px;
+  background: #DCB14A;
+}
+
+#hagley {
+  background-image: url(../photo/home-default-2.jpg);
+  padding-top: 7em;
+  background-size: cover;
+  height: 90vh;
+}
+
+#hagley .hagley-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hagley .hagley-item ul {
+  padding: 40px 0;
+}
+
+#hagley .hagley-item ul li {
+  color: #DCB14A;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#hagley .hagley-item h2 {
+  font-size: 57px;
+  line-height: 67px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+#hagley .hagley-item p {
+  padding: 40px 0;
+}
+
+#chair {
+  padding-top: 4em 0;
+  height: 70vh;
+}
+
+#chair img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+}
+
+#chair img:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#chair .chair-time {
+  padding-top: 2em;
+}
+
+#chair .chair-time h5 {
+  color: #9c9a9a;
+  font-size: 15px;
+}
+
+#chair .chair-time h2 {
+  font-size: 32px;
+  font-size: 700;
+}
+
+#chair .chair-time p {
+  color: #9c9a9a;
+  padding: 20px 0;
+}
+
+#chair .chair-time .btn-chair {
+  padding: 10px 25px;
+  border: 1px solid #181717;
+  color: black;
+}
+
+#chair .chair-time .btn-chair i {
+  padding: 0 5px;
+  color: #8f8c8c;
+}
+
+#chair .chair-time .btn-chair:hover {
+  background: black;
+  color: #fff;
+}
+
+#chair .chair-time .btn-chair:hover i {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
